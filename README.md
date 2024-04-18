@@ -18,9 +18,14 @@ The Library Management System is a web application designed to streamline librar
 
 ## Installation
 1. Clone the repository to your local machine.
-2. Install dependencies using `npm install`.
-3. Configure database settings in `config.js`.
-4. Run the application using `npm start`.
+2. Download the project files from the repository.
+3. Extract the files to your local server directory (e.g., htdocs for XAMPP).
+4. Import the provided SQL database file into your MySQL server.
+5. Configure the database connection settings in the db_connect.php file.
+6. Ensure that your server environment meets the PHP version and other requirements specified in the project documentation.
+7. Open the project in your web browser.
+8. You may need to create an admin account or use default credentials provided in the documentation.
+9. Once logged in, you can start using the library system
 
 ## Usage
 - Access the librarian panel by navigating to `http://localhost:3000/librarian`.
